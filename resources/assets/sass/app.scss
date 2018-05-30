@@ -1,0 +1,74 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "~video-react/styles/scss/video-react"; // or import scss
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  li:hover {
+      background-color: cadetblue
+  }
+  
+  ul.render-videos {
+  
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav.navbar.navbar-default {
+      background-color:rgb(184, 186, 188);
+  }
+  
+  
+  ul.render-videos > li {
+      text-align: left;
+  }
+  
+  ul.navbar-right > li>a {
+      color:white;
+  }
+  
+  div.navbar-header > a {
+      color:white;
+  }
+  
+  label.control-label {
+  
+      text-align: left;
+      float: left;
+  
+  }
+  
+  
+  .video-list-header {
+      text-align: left;
+  }
+  
+  button.add-video-button {
+    display: block;
+}
+
+td.label-col {
+    width: 100px;
+    font-weight: bold;
+}
+
+td.data-column {
+    width: 100px;
+}
+
+td.video-player-cell {
+    width: 400px;
+    padding: 20px;
+}

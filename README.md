@@ -7,8 +7,9 @@ Please follow the steps below  to run the project. You must have laravel , mysql
 3) Create a database of your own choice in mysql and configure your db in the .env file.
 4) Run php artisan migrate to scaffold your db with the required tables for your application
 5) You may run this seeder to fill up the  application with data, the filenames loaded will not exist in storage and will not show any videos --  artisan db:seed --class=VideoTableSeeder
-5) Run npm run dev .
-6) Run php artisan serve .
+6) You will need to run php artisan storage:link to link the Laravel storage location to the public folder
+7) Run npm run dev .
+8) Run php artisan serve .
 
 ## Notes
 
